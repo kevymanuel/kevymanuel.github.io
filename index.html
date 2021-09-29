@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kevy's Portfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://github.com/kevymanuel/PacMen-Factory" target="_blank">PacMen Factory</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/kevymanuel/Map-animation" target="_blank">Map Animation</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/kevymanuel/Eyes-Movement" target="_blank">Eyes Movement</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="Biography.html">Biography</a></li>
+                <li class="nav-item"><a class="nav-link" href="Contact.html">Contact me</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+  
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height=25em xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+  
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <img src="html5-js-css3-logo.png" width="300px" height="110px">
+              <h1>Kevy's Coding Portfolio.</h1>
+              <p>View a few of my coding projects showcasing beginner to intermediate knowledge of html, CSS and Javascript.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">View Projects</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height=25em xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+  
+          <div class="container">
+            <div class="carousel-caption">
+              <img src="Kevy.png" width="110px" height="110px">
+              <h1>About me.</h1>
+              <p>I'm a driven professional with over 9 years of experience in project management, and development of digital products and marketing campaigns. As a Product Manager I thrive in ambiguity and enjoy taking on the challenge of guiding cross-functioanl teams through the development of quality products. I have been involved in the entire cycle of product development from research, problem identification, conceptualization, design, testing and marketing.</p>
+              <p><a class="btn btn-lg btn-primary" href="Biography.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <!--UI Template-->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check" viewBox="0 0 16 16">
+        <title>Check</title>
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+    </svg>
+  
+  <!--Welcome video-->
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Welcome</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0LtvlfctaYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+  <!--Project containers-->
+    <div class="container py-3">
+      <header>
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Coding Projects</h1>
+            <p class="fs-5 text-muted">To view some of my initial coding projects in GitHub, please select one of the projects below and follow the instructions.</p>
+          </div>
+        </header>
+       <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">PacMen Factory</h4>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/kevymanuel/PacMen-Factory" target="_blank"><img src="PacMan1.png" alt="PacMan" style="width:150px; padding-bottom: 15px;"></a>
+                <a href="https://github.com/kevymanuel/PacMen-Factory"  target="_blank"><button type="button" class="w-100 btn btn-lg btn-primary">Play</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Map Animation</h4>           
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/kevymanuel/Map-animation" target="_blank"><img src="Map-illustration.jpg" alt="Map" style="width:227px; padding-bottom: 15px;"></a>
+                <a href="https://github.com/kevymanuel/Map-animation" target="_blank"><button type="button" class="w-100 btn btn-lg btn-primary">Animate</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Eyes Movement</h4>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/kevymanuel/Eyes-Movement" target="_blank"><img src="Eye.png" alt="Map" style="width:278px; padding-bottom: 15px;"></a> 
+                <a href="https://github.com/kevymanuel/Eyes-Movement" target="_blank"><button type="button" class="w-100 btn btn-lg btn-primary">Move</button></a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </main>
+    
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="Kevy.png" alt="" width="24" height="19">
+            <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Projects</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://github.com/kevymanuel/PacMen-Factory" target="_blank">PacMen-Factory</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://github.com/kevymanuel/Map-animation" target="_blank">Map Map-Animation</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://github.com/kevymanuel/Eyes-Movement" target="_blank">Eyes-Movement</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Contact me</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="Contact.html">Contact me</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="Biography.html">Biography</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="index.html">Home</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+
+  <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  </body>
+</html>
