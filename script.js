@@ -142,7 +142,7 @@ function showNotification(message, type = 'info') {
         position: fixed;
         top: 20px;
         right: 20px;
-        background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6'};
+        background: ${type === 'success' ? '#004643' : type === 'error' ? '#c6c5b9' : '#004643'};
         color: white;
         padding: 1rem 1.5rem;
         border-radius: 8px;
@@ -304,7 +304,7 @@ style.textContent = `
     }
     
     .nav-link.active {
-        color: #2563eb;
+        color: #0f7173;
     }
     
     .nav-link.active::after {
