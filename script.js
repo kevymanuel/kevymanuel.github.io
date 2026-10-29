@@ -107,8 +107,10 @@ if (contactForm) {
             return;
         }
         
-        // Simulate form submission
-        showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
+        // Open the visitor's email app with the message filled in
+        const body = `${message}\n\nFrom: ${name} (${email})`;
+        window.location.href = `mailto:kevymanuel@hotmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        showNotification('Opening your email app so you can send the message.', 'success');
         this.reset();
     });
 }
