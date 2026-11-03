@@ -1718,3 +1718,39 @@ section {
     position: static;
     transform: none;
 }
+
+/* Phone screenshot gallery (Readonauts) */
+.phone-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.phone-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.phone-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.phone-gallery figcaption {
+    margin-top: 0.6rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+    .phone-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
