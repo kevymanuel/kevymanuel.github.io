@@ -5,34 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Readonauts | Side Project | Kevy Figuera</title>
     <meta name="description" content="Readonauts is a sight word reading app for early readers that Kevy Figuera designed, built and launched on the App Store for his own kids.">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="case.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html">
-                    <img src="logo.svg" alt="Kevy F." class="logo-image">
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="index.html" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#overview" class="nav-link">Overview</a></li>
-                <li class="nav-item"><a href="#solution" class="nav-link">The App</a></li>
-                <li class="nav-item"><a href="#screens" class="nav-link">Screens</a></li>
-                <li class="nav-item"><a href="#decisions" class="nav-link">Decisions</a></li>
-                <li class="nav-item"><a href="#results" class="nav-link">Lessons</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+    <a class="skip" href="#overview">Skip to the case study</a>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="wordmark" href="index.html">Kevy Figuera</a>
+            <nav aria-label="Main">
+                <a href="index.html#work">Work</a>
+                <a href="index.html#approach">How I work</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#about">About</a>
+                <a href="Kevy_Figuera_Resume.pdf" class="nav-resume">Resume</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="case-hero">
@@ -67,7 +60,7 @@
     <!-- Overview Section -->
     <section id="overview" class="case-section">
         <div class="container">
-            <h2 class="section-title">🧠 Overview</h2>
+            <h2 class="section-title">Overview</h2>
             <div class="case-content">
                 <div class="case-text">
                     <h3>Project Details</h3>
@@ -89,7 +82,7 @@
     <!-- Solution Section -->
     <section id="solution" class="case-section">
         <div class="container">
-            <h2 class="section-title">💡 The App</h2>
+            <h2 class="section-title">The App</h2>
             <div class="case-content">
                 <div class="case-text">
                     <ul class="solution-list">
@@ -108,7 +101,7 @@
     <!-- Screens Section -->
     <section id="screens" class="case-section">
         <div class="container">
-            <h2 class="section-title">📲 Screens</h2>
+            <h2 class="section-title">Screens</h2>
             <div class="phone-gallery">
                 <figure>
                     <img src="readonauts/home.jpeg" alt="Home screen listing the levels, from the free Starling and Cadet levels to locked premium levels" loading="lazy">
@@ -145,7 +138,7 @@
     <!-- Key Decisions Section -->
     <section id="decisions" class="case-section">
         <div class="container">
-            <h2 class="section-title">⚖️ Key Trade-offs & Decisions</h2>
+            <h2 class="section-title">Key Trade-offs & Decisions</h2>
             <div class="case-content">
                 <div class="decisions-table">
                     <table>
@@ -194,11 +187,11 @@
     <!-- Lessons Section -->
     <section id="results" class="case-section">
         <div class="container">
-            <h2 class="section-title">📈 Outcomes & Lessons</h2>
+            <h2 class="section-title">Outcomes & Lessons</h2>
             <div class="case-content">
                 <div class="results-grid">
                     <div class="result-card">
-                        <h3>🚀 Shipped Solo</h3>
+                        <h3>Shipped Solo</h3>
                         <div class="result-metric">
                             <span class="result-value">App Store</span>
                             <span class="result-label">Live with subscriptions</span>
@@ -206,7 +199,7 @@
                         <p>Took the app from idea to App Store review and launch on my own, including in-app subscriptions and account deletion.</p>
                     </div>
                     <div class="result-card">
-                        <h3>👨‍👧‍👦 Real Users at Home</h3>
+                        <h3>Real Users at Home</h3>
                         <div class="result-metric">
                             <span class="result-value">2 Readers</span>
                             <span class="result-label">My first customers</span>
@@ -216,7 +209,7 @@
                 </div>
 
                 <div class="key-takeaways">
-                    <h3>💬 Reflection</h3>
+                    <h3>Reflection</h3>
                     <p>AI tools changed what one person can build. I designed, built and shipped a polished app on my own, something that would once have needed a small team.</p>
                     <p>What did not change is distribution. Organic App Store discovery brought very few downloads, which taught me the lesson I now apply at work: building is no longer the bottleneck, so the hard product questions are who it is for and how they will find it.</p>
                     <ul>
@@ -235,36 +228,15 @@
             <div class="cta-content">
                 <h2>Ready to see more of my work?</h2>
                 <p>Explore other projects and business cases from my portfolio</p>
-                <a href="index.html#projects" class="btn btn-primary">Back to Portfolio</a>
+                <a href="index.html#projects" class="btn">Back to Portfolio</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h3>Kevy Figuera</h3>
-                    <p>Senior Product Manager</p>
-                </div>
-                <div class="footer-links">
-                    <a href="index.html">Portfolio</a>
-                    <a href="#overview">Overview</a>
-                    <a href="#screens">Screens</a>
-                    <a href="#results">Lessons</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/kevymfiguera" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/kevymanuel" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Kevy Figuera. All rights reserved.</p>
-            </div>
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>&copy; 2026 Kevy Figuera</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

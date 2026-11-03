@@ -4,46 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tinybeans Gift Card | Business Case | Kevy Figuera</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="case.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html">
-                    <img src="logo.svg" alt="Kevy F." class="logo-image">
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#overview" class="nav-link">Overview</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#problem" class="nav-link">Problem</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#solution" class="nav-link">Solution</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#strategy" class="nav-link">Strategy</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#results" class="nav-link">Results</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+    <a class="skip" href="#overview">Skip to the case study</a>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="wordmark" href="index.html">Kevy Figuera</a>
+            <nav aria-label="Main">
+                <a href="index.html#work">Work</a>
+                <a href="index.html#approach">How I work</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#about">About</a>
+                <a href="Kevy_Figuera_Resume.pdf" class="nav-resume">Resume</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="case-hero">
@@ -78,7 +59,7 @@
     <!-- Overview Section -->
     <section id="overview" class="case-section">
         <div class="container">
-            <h2 class="section-title">🧠 Overview</h2>
+            <h2 class="section-title">Overview</h2>
             <div class="case-content">
                 <div class="case-text">
                     <h3>Project Details</h3>
@@ -99,7 +80,7 @@
     <!-- Problem Statement Section -->
     <section id="problem" class="case-section">
         <div class="container">
-            <h2 class="section-title">🔍 Problem Statement</h2>
+            <h2 class="section-title">Problem Statement</h2>
             <div class="case-content">
                 <div class="case-text">
                     <p>During user research for a referral initiative, we discovered:</p>
@@ -117,7 +98,7 @@
     <!-- Solution Section -->
     <section id="solution" class="case-section">
         <div class="container">
-            <h2 class="section-title">💡 Solution</h2>
+            <h2 class="section-title">Solution</h2>
             <div class="case-content">
                 <div class="case-text">
                     <p>Develop a Gift Card product to:</p>
@@ -134,11 +115,11 @@
     <!-- Strategy & Execution Section -->
     <section id="strategy" class="case-section">
         <div class="container">
-            <h2 class="section-title">🔧 Strategy & Execution</h2>
+            <h2 class="section-title">Strategy & Execution</h2>
             <div class="case-content">
                 <div class="strategy-grid">
                     <div class="strategy-card">
-                        <h3>🎯 Use Case Development</h3>
+                        <h3>Use Case Development</h3>
                         <ul>
                             <li><strong>Consumer (MVP):</strong> Users gift subscriptions directly via Tinybeans.com</li>
                             <li><strong>Commercial (Future):</strong> Businesses like hospitals or employers gift Tinybeans to new parents or employees</li>
@@ -146,7 +127,7 @@
                         </ul>
                     </div>
                     <div class="strategy-card">
-                        <h3>🛠 Technical & Product Approach</h3>
+                        <h3>Technical & Product Approach</h3>
                         <ul>
                             <li>Purchase/redemption experience hosted on Tinybeans.com for faster iteration and full control of UX and communications</li>
                             <li>Integrated Stripe Checkout for lower fees, flexible payment options, and data control</li>
@@ -154,7 +135,7 @@
                         </ul>
                     </div>
                     <div class="strategy-card">
-                        <h3>💬 Subscription Design</h3>
+                        <h3>Subscription Design</h3>
                         <ul>
                             <li>Introduced 6-month and 12-month durations (no monthly)</li>
                             <li>Non-renewing gift cards to avoid billing ambiguity</li>
@@ -169,11 +150,11 @@
     <!-- User Flow Section -->
     <section id="userflow" class="case-section">
         <div class="container">
-            <h2 class="section-title">📲 User Flow Overview</h2>
+            <h2 class="section-title">User Flow Overview</h2>
             <div class="case-content">
                 <div class="flow-grid">
                     <div class="flow-card">
-                        <h3>✅ Purchase Flow</h3>
+                        <h3>Purchase Flow</h3>
                         <ol>
                             <li>User taps "Gift Card" in the app menu</li>
                             <li>Chooses "Purchase" option</li>
@@ -188,7 +169,7 @@
                         </ol>
                     </div>
                     <div class="flow-card">
-                        <h3>🎁 Redemption Flow</h3>
+                        <h3>Redemption Flow</h3>
                         <ol>
                             <li>Recipient receives an email with gift card code and redemption link</li>
                             <li>In the app, they tap "Redeem", enter the code, and activate Tinybeans+</li>
@@ -218,7 +199,7 @@
     <!-- Key Decisions Section -->
     <section id="decisions" class="case-section">
         <div class="container">
-            <h2 class="section-title">⚖️ Key Trade-offs & Decisions</h2>
+            <h2 class="section-title">Key Trade-offs & Decisions</h2>
             <div class="case-content">
                 <div class="decisions-table">
                     <table>
@@ -255,11 +236,11 @@
     <!-- Results Section -->
     <section id="results" class="case-section">
         <div class="container">
-            <h2 class="section-title">📈 Results & Impact</h2>
+            <h2 class="section-title">Results & Impact</h2>
             <div class="case-content">
                 <div class="results-grid">
                     <div class="result-card">
-                        <h3>✅ MVP Launched</h3>
+                        <h3>MVP Launched</h3>
                         <div class="result-metric">
                             <span class="result-value">Sept 2024</span>
                             <span class="result-label">Launch Date</span>
@@ -267,7 +248,7 @@
                         <p>Successfully launched the gift card feature with strong early adoption signals and positive user feedback.</p>
                     </div>
                     <div class="result-card">
-                        <h3>🤝 First Partner Launch</h3>
+                        <h3>First Partner Launch</h3>
                         <div class="result-metric">
                             <span class="result-value">Q1 2025</span>
                             <span class="result-label">Babylist Australia</span>
@@ -275,7 +256,7 @@
                         <p>Established first commercial partnership with Babylist Australia, validating the B2B distribution strategy.</p>
                     </div>
                     <div class="result-card">
-                        <h3>📬 Support Impact</h3>
+                        <h3>Support Impact</h3>
                         <div class="result-metric">
                             <span class="result-value">Reduced</span>
                             <span class="result-label">Support Tickets</span>
@@ -302,7 +283,7 @@
                 </div>
                 
                 <div class="key-takeaways">
-                    <h3>💬 Reflection</h3>
+                    <h3>Reflection</h3>
                     <p>This project highlights my ability to:</p>
                     <ul>
                         <li><strong>Uncover insights from edge cases</strong> and convert them into scalable growth opportunities</li>
@@ -321,36 +302,15 @@
             <div class="cta-content">
                 <h2>Ready to see more of my work?</h2>
                 <p>Explore other projects and business cases from my portfolio</p>
-                <a href="index.html" class="btn btn-primary">Back to Portfolio</a>
+                <a href="index.html" class="btn">Back to Portfolio</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h3>Kevy Figuera</h3>
-                    <p>Senior Product Manager</p>
-                </div>
-                <div class="footer-links">
-                    <a href="index.html">Portfolio</a>
-                    <a href="#overview">Overview</a>
-                    <a href="#solution">Solution</a>
-                    <a href="#results">Results</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/kevymfiguera" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/kevymanuel" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Kevy Figuera. All rights reserved.</p>
-            </div>
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>&copy; 2026 Kevy Figuera</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html> 
