@@ -4,46 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tinybeans+ Subscription Model | Business Case | Kevy Figuera</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="case.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html">
-                    <img src="logo.svg" alt="Kevy F." class="logo-image">
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#overview" class="nav-link">Overview</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#problem" class="nav-link">Problem</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#solution" class="nav-link">Solution</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#strategy" class="nav-link">Strategy</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#results" class="nav-link">Results</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+    <a class="skip" href="#overview">Skip to the case study</a>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="wordmark" href="index.html">Kevy Figuera</a>
+            <nav aria-label="Main">
+                <a href="index.html#work">Work</a>
+                <a href="index.html#approach">How I work</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#about">About</a>
+                <a href="Kevy_Figuera_Resume.pdf" class="nav-resume">Resume</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="case-hero">
@@ -78,7 +59,7 @@
     <!-- Overview Section -->
     <section id="overview" class="case-section">
         <div class="container">
-            <h2 class="section-title">🧠 Overview</h2>
+            <h2 class="section-title">Overview</h2>
             <div class="case-content">
                 <div class="case-text">
                     <h3>Project Details</h3>
@@ -99,7 +80,7 @@
     <!-- Problem Statement Section -->
     <section id="problem" class="case-section">
         <div class="container">
-            <h2 class="section-title">🔍 Problem Statement</h2>
+            <h2 class="section-title">Problem Statement</h2>
             <div class="case-content">
                 <div class="case-text">
                     <p>When I joined Tinybeans, the company had moved away from a freemium model and adopted a fully paid app structure. Over several months, I launched experiments to optimize onboarding, trial starts, and early retention. However, despite incremental improvements, systemic issues remained:</p>
@@ -119,7 +100,7 @@
     <!-- Solution Section -->
     <section id="solution" class="case-section">
         <div class="container">
-            <h2 class="section-title">💡 Solution</h2>
+            <h2 class="section-title">Solution</h2>
             <div class="case-content">
                 <div class="case-text">
                     <p>Reintroduce a freemium model supported by a modernized, benefit-rich subscription offering to:</p>
@@ -137,11 +118,11 @@
     <!-- Strategy & Execution Section -->
     <section id="strategy" class="case-section">
         <div class="container">
-            <h2 class="section-title">🔧 Strategy & Execution</h2>
+            <h2 class="section-title">Strategy & Execution</h2>
             <div class="case-content">
                 <div class="strategy-grid">
                     <div class="strategy-card">
-                        <h3>🎯 Research & Validation</h3>
+                        <h3>Research & Validation</h3>
                         <ul>
                             <li>Partnered with data science to identify behavioral AHA moments via cohort analysis, retention curves, and analytics tools like Tableau, Zenlytics, and Leanplum</li>
                             <li>Ran A/B experiments to test increased free actions → demonstrated higher retention</li>
@@ -151,7 +132,7 @@
                         </ul>
                     </div>
                     <div class="strategy-card">
-                        <h3>🧩 Subscription Design</h3>
+                        <h3>Subscription Design</h3>
                         <ul>
                             <li>Led the feature definition, benefit prioritization, and user journey mapping for both tiers</li>
                             <li><strong>Tinybeans+ Includes:</strong>
@@ -173,7 +154,7 @@
                         </ul>
                     </div>
                     <div class="strategy-card">
-                        <h3>🧩 Retention Enhancements</h3>
+                        <h3>Retention Enhancements</h3>
                         <ul>
                             <li><strong>Activity Recap:</strong> Highlighted key usage stats to remind users of their investment.</li>
                             <li><strong>Discount Offer:</strong> Presented targeted discounts to encourage subscription continuation..</li>
@@ -182,7 +163,7 @@
                         </ul>
                     </div>
                     <div class="strategy-card">
-                        <h3>🛠 Implementation & Trade-offs</h3>
+                        <h3>Implementation & Trade-offs</h3>
                         <ul>
                             <li>Partnered with engineering to create new App Store/Google Play SKUs</li>
                             <li>Designed migration plans for legacy and lifetime subscribers</li>
@@ -191,7 +172,7 @@
                         </ul>
                     </div>
                     <div class="strategy-card">
-                        <h3>📣 Go-to-Market & Messaging</h3>
+                        <h3>Go-to-Market & Messaging</h3>
                         <ul>
                             <li>Collaborated closely with product growth and lifecycle teams</li>
                             <li>Crafted new value-driven messaging</li>
@@ -207,7 +188,7 @@
    <!-- User Flow Section -->
    <section id="userflow" class="case-section">
     <div class="container">
-        <h2 class="section-title">📲 Design</h2>
+        <h2 class="section-title">Design</h2>
         <div class="case-content">            
             <div class="wireframes-section">
                 <div class="wireframes-grid">
@@ -240,7 +221,7 @@
     <!-- Key Decisions Section -->
     <section id="decisions" class="case-section">
         <div class="container">
-            <h2 class="section-title">⚖️ Key Trade-offs & Decisions</h2>
+            <h2 class="section-title">Key Trade-offs & Decisions</h2>
             <div class="case-content">
                 <div class="decisions-table">
                     <table>
@@ -277,11 +258,11 @@
     <!-- Results Section -->
     <section id="results" class="case-section">
         <div class="container">
-            <h2 class="section-title">📈 Results & Impact</h2>
+            <h2 class="section-title">Results & Impact</h2>
             <div class="case-content">
                 <div class="results-grid">
                     <div class="result-card">
-                        <h3>✅ Tinybeans+ Launched</h3>
+                        <h3>Tinybeans+ Launched</h3>
                         <div class="result-metric">
                             <span class="result-value">Q4 2023</span>
                             <span class="result-label">April 2023</span>
@@ -289,7 +270,7 @@
                         <p>Successfully launched across platforms with strong early adoption signals and positive user feedback.</p>
                     </div>
                     <div class="result-card">
-                        <h3>🚪 Grace Period Success</h3>
+                        <h3>Grace Period Success</h3>
                         <div class="result-metric">
                             <span class="result-value">Improved</span>
                             <span class="result-label">Early Retention</span>
@@ -297,7 +278,7 @@
                         <p>Led to early retention improvements and stronger trial funnel quality.</p>
                     </div>
                     <div class="result-card">
-                        <h3>🧩 Freemium Model Success</h3>
+                        <h3>Freemium Model Success</h3>
                         <div class="result-metric">
                             <span class="result-value">Solved</span>
                             <span class="result-label">Key Growth Issues</span>
@@ -308,7 +289,7 @@
                 
                 <!-- Revenue Growth Timeline -->
                 <div class="revenue-timeline-section">
-                    <h3>📊 Subscription Revenue Growth Timeline</h3>
+                    <h3>Subscription Revenue Growth Timeline</h3>
                     <div class="revenue-cards">
                         <div class="revenue-card">
                             <h4>2022</h4>
@@ -330,7 +311,7 @@
                 </div>
                 
                 <div class="key-takeaways">
-                    <h3>💬 Reflection</h3>
+                    <h3>Reflection</h3>
                     <p>This was a transformational project for Tinybeans as business. The project required bold thinking, cross-functional alignment, and a willingness to challenge core business assumptions. I'm most proud of:</p>
                     <ul>
                         <li><strong>Driving change through evidence and empathy:</strong> Using data and user research to validate strategic decisions</li>
@@ -349,36 +330,15 @@
             <div class="cta-content">
                 <h2>Ready to see more of my work?</h2>
                 <p>Explore other projects and business cases from my portfolio</p>
-                <a href="index.html" class="btn btn-primary">Back to Portfolio</a>
+                <a href="index.html" class="btn">Back to Portfolio</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h3>Kevy Figuera</h3>
-                    <p>Senior Product Manager</p>
-                </div>
-                <div class="footer-links">
-                    <a href="index.html">Portfolio</a>
-                    <a href="#overview">Overview</a>
-                    <a href="#solution">Solution</a>
-                    <a href="#results">Results</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/kevymfiguera" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/kevymanuel" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Kevy Figuera. All rights reserved.</p>
-            </div>
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>&copy; 2026 Kevy Figuera</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html> 
