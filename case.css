@@ -356,3 +356,5 @@
 @media (prefers-reduced-motion: reduce) {
     .case-hero { animation: none; }
 }
+
+.app-store { margin: 2rem 0 0; }

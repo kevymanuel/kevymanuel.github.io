@@ -417,3 +417,5 @@ h2 {
     .hero { animation: none; }
     .case-outcome { transition: none; }
 }
+
+.app-store-note { margin: 1rem 0 0; font-weight: 600; }
